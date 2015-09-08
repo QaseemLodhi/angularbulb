@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="./bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</head>
+<body ng-app =  "bulb">
+<div ng-controller="myctrl as ctrl" style="margin: 10% 0% 0% 40% ">
+
+      <h3><i>lightbulb is</i>  </h3>
+    <button style="width: 10%">
+        <a class="button" ng-click="ctrl.isBulbOn = !ctrl.isBulbOn">
+            {{ ctrl.bulbText() }}
+        </a>
+    </button><br>
+
+    <a ng-click="ctrl.isBulbOn = !ctrl.isBulbOn">
+        <img ng-src="{{ ctrl.bulbUrl() }}" style="width:35% "/>
+    </a>
+</div>
+</body>
+</html>

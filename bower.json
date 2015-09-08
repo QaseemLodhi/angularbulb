@@ -1,0 +1,19 @@
+{
+
+  "name": "bulb",
+  "version": "0.0.1",
+  "authors": [
+    "Zia Khan <ziaukhan@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5"
+  }
+}
